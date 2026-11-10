@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a0928">
+  <meta name="description" content="A little world made just for you. Happy Birthday, My Love.">
+  <title>Happy Birthday, My Love 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div id="heart-field" class="heart-field" aria-hidden="true"></div>
+  <div id="confetti-layer" class="confetti-layer" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span>A LITTLE WORLD MADE JUST FOR YOU<span class="eyebrow-line"></span></p>
+        <div class="hero-heart" aria-hidden="true"><span>♥</span><i></i></div>
+        <p class="overline">A day as lovely as you</p>
+        <h1>Happy Birthday,<br><em>My Love</em></h1>
+        <p class="hero-copy">If I could wrap every little reason I adore you into a gift, the whole universe still wouldn't be big enough.</p>
+        <div class="date-chip"><span>✧</span> 13 November 2026 <span>✧</span></div>
+        <a class="scroll-cue" href="#countdown">A little surprise awaits <span>↓</span></a>
+      </div>
+      <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+      <span class="sparkle s1">✦</span><span class="sparkle s2">✧</span><span class="sparkle s3">✦</span>
+    </section>
+
+    <section class="countdown-section section-shell" id="countdown">
+      <div class="section-heading reveal">
+        <p class="eyebrow">THE MAGIC IS GETTING CLOSER</p>
+        <h2>Counting down to <em>you</em></h2>
+        <p>Every second brings us closer to celebrating the wonderful person you are.</p>
+      </div>
+      <div class="countdown-grid reveal" id="countdown-grid" aria-label="Countdown to birthday">
+        <div class="time-card"><strong id="days">00</strong><span>Days</span></div>
+        <div class="time-card"><strong id="hours">00</strong><span>Hours</span></div>
+        <div class="time-card"><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div class="time-card"><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+      <p class="countdown-note" id="countdown-note">A thousand little heartbeats until your special day…</p>
+    </section>
+
+    <section class="gallery-section section-shell" id="memories">
+      <div class="section-heading reveal">
+        <p class="eyebrow">LITTLE MOMENTS, INFINITE LOVE</p>
+        <h2>Our lovely <em>memories</em></h2>
+        <p>Some moments deserve to be kept close, like little stars in a pocket.</p>
+      </div>
+      <div class="gallery-grid reveal" id="gallery">
+        <button class="photo-card photo-tall" data-index="0" aria-label="Open memory photo 1"><img src="IMG_20261030_202714146_HDR.jpg" alt="Replace with your favourite memory"><span class="photo-caption">A moment to keep ♡</span></button>
+        <button class="photo-card" data-index="1" aria-label="Open memory photo 2"><img src="IMG_20251113_161409806_HDR.jpg" alt="Replace with your favourite memory"><span class="photo-caption">My happy place</span></button>
+        <button class="photo-card" data-index="2" aria-label="Open memory photo 3"><img src="IMG_20261030_202027_745 (1).webp" alt="Replace with your favourite memory"><span class="photo-caption">Little things, big love</span></button>
+        <button class="photo-card" data-index="3" aria-label="Open memory photo 4"><img src="IMG_20251113_162809274_HDR (1).jpg" alt="Replace with your favourite memory"><span class="photo-caption">Always you</span></button>
+        <button class="photo-card photo-wide" data-index="4" aria-label="Open memory photo 5"><img src="IMG_20261030_202633685_HDR.jpg" alt="Replace with your favourite memory"><span class="photo-caption">A favourite chapter</span></button>
+        <button class="photo-card" data-index="5" aria-label="Open memory photo 6"><img src="IMG_20251113_161016363_HDR.jpg" alt="Replace with your favourite memory"><span class="photo-caption">To many more ♡</span></button>
+      </div>
+    </section>
+
+    <section class="letter-section section-shell" id="letter">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SEALED WITH ALL MY LOVE</p>
+        <h2>A letter from <em>my heart</em></h2>
+        <p>Two little pages, and a million feelings.</p>
+      </div>
+      <div class="letter-wrap reveal">
+        <div class="letter-top"><span>♡ &nbsp; TO MY LOVE</span><span id="page-indicator">01 / 02</span></div>
+        <article class="letter-page active" id="letter-page-1">
+          <p class="letter-salutation">My dearest love,</p>
+          <p>There are people who make the world feel a little softer just by being in it. You are that person for me. Your smile can turn an ordinary day into something I want to remember, and your presence makes even the quietest moments feel special.</p>
+          <p>I wish I could put into words how much you mean to me, but somehow words never feel enough. You are one of the most beautiful parts of my life, and every little moment with you becomes a memory I want to keep forever</p>
+          <p>I don't need a reason to smile because of you. Just having you in my life makes me happy, and knowing you're there means more to me than words can say.I hope life gives you all the happiness your heart deserves, because someone as special as you deserves nothing less than the best.</p>
+          <p class="letter-sign">With all my heart, <span>♡</span></p>
+        </article>
+        <article class="letter-page" id="letter-page-2">
+          <p class="letter-salutation">A little wish for you,</p>
+          <p>I know this year hasn't been the best for us. We've had so many fights and arguments. But despite everything, I love you so much. You mean more to me than you can imagine, and you're really important to me. ❤️</p>
+          <p>I'll always be there to support you, listen to you, make you smile, and stand by your side whenever you need me. I just want to see you happy and becoming the person you dream of being. Never forget how special you are to me ❤️</p>
+          <p class="letter-closing">Happy Birthday, My Love.<br></p>
+          <p class="letter-sign">Forever sending you love, <span>♡</span></p>
+        </article>
+        <div class="letter-controls"><button class="button button-quiet" id="prev-page" disabled>← Previous</button><span class="page-dots"><i class="active"></i><i></i></span><button class="button button-primary" id="next-page">Next page →</button></div>
+      </div>
+    </section>
+
+    <section class="surprise-section section-shell" id="surprise">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A FEW THINGS I HOPE YOU NEVER FORGET</p>
+        <h2>There are a million reasons<br><em>to adore you</em></h2>
+        <p>But here are just four little reminders of how wonderfully special you are.</p>
+      </div>
+      <div class="gift-grid reveal">
+        <div class="gift-card"><div class="gift-emoji">✨</div><h3>Your beautiful soul</h3><p>The kindness you carry makes everything around you brighter.</p></div>
+        <div class="gift-card"><div class="gift-emoji">😊</div><h3>Your lovely smile</h3><p>One smile from you can make an ordinary day unforgettable.</p></div>
+        <div class="gift-card"><div class="gift-emoji">🌷</div><h3>Your gentle heart</h3><p>You make people feel seen, valued, and cared for.</p></div>
+        <div class="gift-card"><div class="gift-emoji">🌙</div><h3>Simply being you</h3><p>No matter what, you are more than enough — always.</p></div>
+      </div>
+      <div class="wish-area reveal"><button class="button button-primary wish-button" id="wish-button">Make a Wish ✨</button><p id="wish-message" class="wish-message" aria-live="polite">Close your eyes, make a wish, and let the magic begin.</p></div>
+    </section>
+
+    <section class="birthday-banner section-shell" id="birthday-banner" hidden>
+      <div class="birthday-glow"></div><p class="eyebrow">THE WAIT IS OVER</p><h2>IT'S YOUR <em>SPECIAL DAY!</em></h2><p>Today the whole world gets a little brighter because you were born. Happy Birthday, My Love! 💗</p><div class="banner-cake">🎂 🎁 🌹</div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-heart">♥</div><p>Made with a little magic & a whole lot of love.</p><span>For you, today and always · 13.11.2026</span></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close gallery">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous photo">‹</button>
+    <figure><img id="lightbox-image" src="" alt="Memory preview"><figcaption id="lightbox-caption"></figcaption></figure>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next photo">›</button>
+  </div>
+
+ <audio id="background-music" controls loop preload="auto">
+    <source src="./Ed Sheeran - Perfect (Lyrics).mp3" type="audio/mpeg">
+</audio>
+<script src="./script.js"></script>
+  
+</body>
+</html>
